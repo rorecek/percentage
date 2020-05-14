@@ -3,6 +3,7 @@
 [![Go version](https://img.shields.io/github/go-mod/go-version/rorecek/percentage?style=flat-square)](https://github.com/rorecek/percentage/blob/master/go.mod)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rorecek/percentage?style=flat-square)](https://goreportcard.com/report/github.com/rorecek/percentage)
 [![Godoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/rorecek/percentage)
+[![Build Status](https://travis-ci.com/rorecek/percentage.svg?branch=master)](https://travis-ci.com/rorecek/percentage)
 [![Releases](https://img.shields.io/github/v/release/rorecek/percentage?sort=semver&style=flat-square)](https://github.com/rorecek/percentage/releases)
 [![LICENSE](https://img.shields.io/github/license/rorecek/percentage?style=flat-square)](https://github.com/rorecek/percentage/blob/master/LICENSE)
 
@@ -30,10 +31,10 @@ percentage.DifferenceBetween(100, 120);         // 20
 percentage.AbsoluteDifferenceBetween(100, 80);  // 20, not -20
 
 // How much is 120 compared to 100?
-percentage.Calculate(120, 100);                 // 120%
+percentage.Calculate(120, 100);                 // 120
 
 // How much is 50 compared to 100?
-percentage.Calculate(50, 100);                  // 50%
+percentage.Calculate(50, 100);                  // 50
 
 // What is 20% of 200?
 percentage.Of(20, 200);                         // 40
