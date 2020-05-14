@@ -4,6 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/rorecek/percentage?style=flat-square)](https://goreportcard.com/report/github.com/rorecek/percentage)
 [![Godoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/rorecek/percentage)
 [![Build Status](https://travis-ci.com/rorecek/percentage.svg?branch=master)](https://travis-ci.com/rorecek/percentage)
+[![codecov](https://codecov.io/gh/rorecek/percentage/branch/master/graph/badge.svg)](https://codecov.io/gh/rorecek/percentage)
 [![Releases](https://img.shields.io/github/v/release/rorecek/percentage?sort=semver&style=flat-square)](https://github.com/rorecek/percentage/releases)
 [![LICENSE](https://img.shields.io/github/license/rorecek/percentage?style=flat-square)](https://github.com/rorecek/percentage/blob/master/LICENSE)
 
