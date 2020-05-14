@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 /*
-A clean interface to calculate percentages in Go: changes between values, percentage increases and partial values.
+Package percentage - a clean interface to calculate percentages in Go (changes between values, percentage increases and partial values).
 Think of it as a very lightweight math library for the basic stuff. Aimed to make your code more readable and easier to understand.
 
 Usage
@@ -27,22 +27,22 @@ package percentage
 
 import "math"
 
-// What is the percentage increase or decrease from a to b
+// DifferenceBetween returns the percentage increase or decrease from a to b
 func DifferenceBetween(a, b float64) float64 {
 	return (b - a) / a * 100
 }
 
-// What is the absolute percentage increase or decrease from a to b
+// AbsoluteDifferenceBetween returns the absolute percentage increase or decrease from a to b
 func AbsoluteDifferenceBetween(a, b float64) float64 {
 	return math.Abs(DifferenceBetween(a, b))
 }
 
-// How much is the new value of the origin value in percentages
+// Calculate returns how much is the new value of the origin value in percentages
 func Calculate(new, origin float64) float64 {
 	return new / origin * 100
 }
 
-// Get a percentage from the base number
+// Of returns a percentage from the base number
 func Of(percentage, base float64) float64 {
 	return percentage * base / 100
 }
